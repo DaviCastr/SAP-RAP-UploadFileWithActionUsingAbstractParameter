@@ -1,0 +1,6 @@
+@EndUserText.label: 'YC_LIBRARY_DFLC'
+@MappingRole: true
+define role YC_LIBRARY_DFLC {
+  grant select on YC_LIBRARY_DFLC
+  where INHERITING CONDITIONS FROM ENTITY YR_LIBRARY_DFLC REPLACING { ROOT WITH _BaseEntity };
+}

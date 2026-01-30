@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Definição de serviço para YC_LIBRARY_DFLC'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'YC_LIBRARY_DFLC'
+  }
+}
+define service YUI_LIBRARY_DFLC provider contracts odata_v4_ui {
+  expose YC_LIBRARY_DFLC as Library;
+}

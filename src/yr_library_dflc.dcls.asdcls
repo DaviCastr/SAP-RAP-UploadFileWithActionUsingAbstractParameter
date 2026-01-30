@@ -1,0 +1,6 @@
+@EndUserText.label: 'YR_LIBRARY_DFLC'
+@MappingRole: true
+define role YR_LIBRARY_DFLC {
+  grant select on YR_LIBRARY_DFLC
+  where TRUE;
+}
